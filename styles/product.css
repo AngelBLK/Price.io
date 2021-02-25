@@ -1,0 +1,157 @@
+:root{
+    --main-color-tittle: #0D65F8;
+    --main-bg-button2: #f3c769;
+    --main-bg-button:#F6DA9F;
+    --main-bd-button: #976900;
+    --main-line-amazon: #E47911;
+    --main-best-price-card:#2ABFB5;
+    --main-bg: #ffffff;
+    --main-bd: #BFBFBF;
+    --main-text: #000000;
+    --main-sub-text: #ADADAD;
+    --main-softly-blue: #79ABFE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.section__product{
+    width: 76.8rem;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #f7f2f2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.product__info{
+    width: 76.8rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product{
+    width: 18rem;
+    height: 10.9rem;
+    border-radius: 5px;
+}
+
+.product__conten{
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.conten__tittle{
+    font-size: 2.10rem;
+    font-weight: 700;
+}
+
+.content__copy{
+    color: var(--main-color-tittle);
+}
+.price__button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 19px;
+
+}
+
+.price__current{
+    font-size: .80rem;
+    font-weight: 400;
+    color: var(--main-sub-text);
+    margin-left: 15px;
+}
+
+.price__product{
+    font-size: 1.6rem;
+    color: var(--main-best-price-card);
+}
+
+
+.imag__content{
+    width: 27.9rem;
+    height: 12rem;
+    box-shadow: 0px 0px 2px var(--main-sub-text);
+}
+
+.image{
+    width: 27.5rem;
+    height: 12rem;
+    background-size: cover ;
+    
+}
+
+.section__track{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 65px;
+    
+}
+
+.select__item{
+    display: flex; 
+    margin-top: 45px;
+}
+.select__item-check{
+    margin-left: 15px; 
+    
+}
+
+.lbl{
+    font-size: .93rem;
+    font-weight: 400; 
+}
+ul{
+    list-style: none;
+}
+
+.first__tittle{
+    font-size: 1.59rem;
+    font-weight: 400;
+}
+
+.first__input{
+    width: 17.76rem;
+    height: 2.53rem;
+    text-align: center;
+    box-shadow: 0px 0px 6px var(--main-sub-text);
+    border: none;
+    border-radius: 5px;
+}
+
+.second-input{
+    width: 14rem;
+    height: 2.53rem;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 6px var(--main-sub-text);
+    border: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.last__button{
+    width: 9rem;
+    height: 2.6rem;
+    margin-left: 20px; 
+    box-shadow: 0px 0px 6px var(--main-sub-text);
+}
+.people{
+    width: 80%;
+    margin: auto 65px;
+    margin-top: 40px;
+}
+.also{
+    font-size: 2.10rem;
+}
